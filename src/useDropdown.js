@@ -22,6 +22,6 @@ const useDropdown = (label, defaultstate, options) => {
       </select>
     </label>
   );
-  return [state, Dropdown];
+  return [state, Dropdown, setState];
 };
 export default useDropdown;
